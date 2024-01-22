@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#1F2024;
+}
+
+
+header {
+    background-color: #044040;
+    color: #FFAE00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 0.9rem;
+    display: inline-flex;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #FFAE00;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Crete Round', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Young Serif', serif;;
+}
+
+
+section { 
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80%;
+    margin-top: 20px;
+   margin-bottom: 20px;
+    padding: 20px;
+    color: #FFAE00;
+    background-color: #044040;
+    border: 1px solid #ccc;
+}
+
+section h2 {
+    font-size: 1.5em;
+}
+.presencial{
+    color: #e5bb87;
+}
+.G{
+color: rgb(79, 79, 250);
+}
+.o{
+color: red;
+}
+.o-2{
+color: yellow;
+}
+.L{
+color: green;
+}
+ #servico{ 
+   
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+   margin-bottom: 20px;
+    color: #D9AA71;
+    background-color: #044040;
+    border: 1px solid #ccc;
+
+}
+#teccell{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+   margin-bottom: 20px;
+    color: #fdfdfd;
+    background-color: #021f1f;
+    border: 1px solid #ccc;
+}
+.list-contato{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Crete Round', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Young Serif', serif;;
+     list-style-type: none;
+}
+
+.lista-servico {
+   
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Crete Round', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Young Serif', serif;;
+ list-style-type: none;
+      padding: 0;
+
+}
+.lista-servico > li{ 
+     
+   margin: 10px 0;
+    font-size:120%;
+    margin-bottom: 10px;
+}
+.image-servico{
+    max-width: 150px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .icon {
+    width: auto;
+    text-align: center;
+  }
+  
+  .icon img {
+    max-width: 100%; }
+  
+footer {
+    background-color: #022020;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: #032929;
+    min-width: 100px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content li a {
+    color:#032929;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:active {
+    background-color:#D9AA71;
+    color:#032929;
+}
+
+.dropdown:hover .dropdown-content  {
+    background-color:#D9AA71;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+}
+
+.pagina-inicial{
+    background-color: #044040;
+    
+    
+    border-radius: -50% -50%;
+}
+.botao-solicitar{
+text-decoration: none;
+background-color: #011a1a;
+color: #ccc;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Crete Round', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Young Serif', serif;;
+border-radius: 10px;
+padding: 10px;
+}
+.botao-solicitar :hover{
+    text-decoration: none;
+ 
+color: #ccc;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Crete Round', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Young Serif', serif;;
+border-radius: 10px;
+padding: 10px;
+    color: #e5bb87;
+}
